@@ -28,6 +28,7 @@
     <link rel="shortcut icon" href="" />
 
     <!-- CSS/JS -->
+    <link rel="stylesheet" href="./css/style.css" />
     <!-- <link rel="stylesheet" href="./css/destyle.css" /> -->
     <!-- <link rel="stylesheet" href="./css/wireframe.css"> -->
     <link
@@ -41,165 +42,168 @@
     <header>
       <h1>ettsu-log（工事中）</h1>
 
-      <nav>
-        <menu>
-          <li title="トップページです。">
-            <a href="./index.html">Home</a>
+      <nav class="global-navigation">
+        <menu class="global-navigation--menu">
+          <li class="global-navigation--item" title="トップページです。">
+            <a class="global-navigation--link" href="./index.html">Home</a>
           </li>
           <li
-            title="趣味に関する記事を載せています。"
-            style="background-color: skyblue">
-            <a>Log</a>
+            class="global-navigation--item"
+            title="趣味に関する記事を載せています。">
+            <a class="global-navigation--link is-selected"> Log </a>
           </li>
-          <li title="なんか作ったものを雑多に置く場所です。">
-            <a href="./work.html">Work</a>
+          <li
+            class="global-navigation--item"
+            title="なんか作ったものを雑多に置く場所です。">
+            <a class="global-navigation--link" href="./work.html">Work</a>
           </li>
-          <li title="試したいものを実際に試している場所です。">
-            <a href="./lab.html">Lab</a>
+          <li
+            class="global-navigation--item"
+            title="試したいものを実際に試している場所です。">
+            <a class="global-navigation--link" href="./lab.html"> Lab </a>
           </li>
         </menu>
       </nav>
     </header>
 
-    <main>
+    <main class="main">
       <section>
         <h2>Recommends</h2>
       </section>
-      <section>
+      <article>
         <h2>News</h2>
-        <article>
-          <h3>最新記事</h3>
-          <section>
-            <h4>Log</h4>
-            <ul>
-              <li>
-                <article>
-                  <h5>キーボード XXXXX 買いました！</h5>
-                  <p>
-                    キーボード XXXXX を買いました。65%
-                    のコンパクトキーボードです。アルミボディ、ダブルガスケットマウント...
-                  </p>
-                  <button type="button">Read More</button>
-                </article>
-              </li>
-              <li>
-                <article>
-                  <h5>キーボード XXXXX 買いました！</h5>
-                  <p>
-                    キーボード XXXXX を買いました。65%
-                    のコンパクトキーボードです。アルミボディ、ダブルガスケットマウント...
-                  </p>
-                  <button type="button">Read More</button>
-                </article>
-              </li>
-              <li>
-                <article>
-                  <h5>キーボード XXXXX 買いました！</h5>
-                  <p>
-                    キーボード XXXXX を買いました。65%
-                    のコンパクトキーボードです。アルミボディ、ダブルガスケットマウント...
-                  </p>
-                  <button type="button">Read More</button>
-                </article>
-              </li>
-            </ul>
-          </section>
-          <section>
-            <h4>Work</h4>
-            <ul>
-              <li>
-                <article>
-                  <h5>キーボード XXXXX 買いました！</h5>
-                  <p>
-                    キーボード XXXXX を買いました。65%
-                    のコンパクトキーボードです。アルミボディ、ダブルガスケットマウント...
-                  </p>
-                  <button type="button">Read More</button>
-                </article>
-              </li>
-              <li>
-                <article>
-                  <h5>キーボード XXXXX 買いました！</h5>
-                  <p>
-                    キーボード XXXXX を買いました。65%
-                    のコンパクトキーボードです。アルミボディ、ダブルガスケットマウント...
-                  </p>
-                  <button type="button">Read More</button>
-                </article>
-              </li>
-              <li>
-                <article>
-                  <h5>キーボード XXXXX 買いました！</h5>
-                  <p>
-                    キーボード XXXXX を買いました。65%
-                    のコンパクトキーボードです。アルミボディ、ダブルガスケットマウント...
-                  </p>
-                  <button type="button">Read More</button>
-                </article>
-              </li>
-            </ul>
-          </section>
-          <section>
-            <h4>Lab</h4>
-            <ul>
-              <li>
-                <article>
-                  <h5>キーボード XXXXX 買いました！</h5>
-                  <p>
-                    キーボード XXXXX を買いました。65%
-                    のコンパクトキーボードです。アルミボディ、ダブルガスケットマウント...
-                  </p>
-                  <button type="button">Read More</button>
-                </article>
-              </li>
-              <li>
-                <article>
-                  <h5>キーボード XXXXX 買いました！</h5>
-                  <p>
-                    キーボード XXXXX を買いました。65%
-                    のコンパクトキーボードです。アルミボディ、ダブルガスケットマウント...
-                  </p>
-                  <button type="button">Read More</button>
-                </article>
-              </li>
-              <li>
-                <article>
-                  <h5>キーボード XXXXX 買いました！</h5>
-                  <p>
-                    キーボード XXXXX を買いました。65%
-                    のコンパクトキーボードです。アルミボディ、ダブルガスケットマウント...
-                  </p>
-                  <button type="button">Read More</button>
-                </article>
-              </li>
-            </ul>
-          </section>
-        </article>
-      </section>
+        <section>
+          <h3>Log</h3>
+          <ul>
+            <li>
+              <article>
+                <h5>キーボード XXXXX 買いました！</h5>
+                <p>
+                  キーボード XXXXX を買いました。65%
+                  のコンパクトキーボードです。アルミボディ、ダブルガスケットマウント...
+                </p>
+                <button type="button">Read More</button>
+              </article>
+            </li>
+            <li>
+              <article>
+                <h5>キーボード XXXXX 買いました！</h5>
+                <p>
+                  キーボード XXXXX を買いました。65%
+                  のコンパクトキーボードです。アルミボディ、ダブルガスケットマウント...
+                </p>
+                <button type="button">Read More</button>
+              </article>
+            </li>
+            <li>
+              <article>
+                <h5>キーボード XXXXX 買いました！</h5>
+                <p>
+                  キーボード XXXXX を買いました。65%
+                  のコンパクトキーボードです。アルミボディ、ダブルガスケットマウント...
+                </p>
+                <button type="button">Read More</button>
+              </article>
+            </li>
+          </ul>
+        </section>
+        <section>
+          <h3>Work</h3>
+          <ul>
+            <li>
+              <article>
+                <h5>キーボード XXXXX 買いました！</h5>
+                <p>
+                  キーボード XXXXX を買いました。65%
+                  のコンパクトキーボードです。アルミボディ、ダブルガスケットマウント...
+                </p>
+                <button type="button">Read More</button>
+              </article>
+            </li>
+            <li>
+              <article>
+                <h5>キーボード XXXXX 買いました！</h5>
+                <p>
+                  キーボード XXXXX を買いました。65%
+                  のコンパクトキーボードです。アルミボディ、ダブルガスケットマウント...
+                </p>
+                <button type="button">Read More</button>
+              </article>
+            </li>
+            <li>
+              <article>
+                <h5>キーボード XXXXX 買いました！</h5>
+                <p>
+                  キーボード XXXXX を買いました。65%
+                  のコンパクトキーボードです。アルミボディ、ダブルガスケットマウント...
+                </p>
+                <button type="button">Read More</button>
+              </article>
+            </li>
+          </ul>
+        </section>
+        <section>
+          <h3>Lab</h3>
+          <ul>
+            <li>
+              <article>
+                <h5>キーボード XXXXX 買いました！</h5>
+                <p>
+                  キーボード XXXXX を買いました。65%
+                  のコンパクトキーボードです。アルミボディ、ダブルガスケットマウント...
+                </p>
+                <button type="button">Read More</button>
+              </article>
+            </li>
+            <li>
+              <article>
+                <h5>キーボード XXXXX 買いました！</h5>
+                <p>
+                  キーボード XXXXX を買いました。65%
+                  のコンパクトキーボードです。アルミボディ、ダブルガスケットマウント...
+                </p>
+                <button type="button">Read More</button>
+              </article>
+            </li>
+            <li>
+              <article>
+                <h5>キーボード XXXXX 買いました！</h5>
+                <p>
+                  キーボード XXXXX を買いました。65%
+                  のコンパクトキーボードです。アルミボディ、ダブルガスケットマウント...
+                </p>
+                <button type="button">Read More</button>
+              </article>
+            </li>
+          </ul>
+        </section>
+      </article>
       <section>
         <h2>Profile</h2>
       </section>
     </main>
 
     <footer>
-      <h2>ettsu-log</h2>
-      <section>
-        <h3>Articles</h3>
-        <ul>
-          <li>Log</li>
-          <li>Work</li>
-          <li>Lab</li>
-        </ul>
+      <section class="footer--content">
+        <h2>ettsu-log</h2>
+        <section>
+          <h3>Articles</h3>
+          <ul>
+            <li>Log</li>
+            <li>Work</li>
+            <li>Lab</li>
+          </ul>
+        </section>
+        <section>
+          <h3>Social</h3>
+          <ul>
+            <li>X(旧 Twitter, Elon's TOY)</li>
+            <li>GitHub</li>
+            <li>misskey</li>
+          </ul>
+        </section>
       </section>
-      <section>
-        <h3>Social</h3>
-        <ul>
-          <li>X(旧 Twitter, Elon's TOY)</li>
-          <li>GitHub</li>
-          <li>misskey</li>
-        </ul>
-      </section>
-      &copy; 2023 ETTSU
+      <section class="footer--copyright"> &copy; 2023 ETTSU </section>
     </footer>
   </body>
 </html>
