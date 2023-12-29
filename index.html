@@ -28,7 +28,8 @@
     <link rel="shortcut icon" href="" />
 
     <!-- CSS/JS -->
-    <link rel="stylesheet" href="./style/style.css" />
+    <link rel="stylesheet" href="./style/general.css" />
+    <link rel="stylesheet" href="./style/home.css" />
     <!-- <link rel="stylesheet" href="./style/destyle.css" /> -->
     <!-- <link rel="stylesheet" href="./style/wireframe.css"> -->
     <!-- <link
@@ -39,126 +40,183 @@
   </head>
 
   <body>
-    <g-header></g-header>
+    <g-header class="header"></g-header>
 
-    <main class="main">
-      <section>
-        <h2>Recommends</h2>
-      </section>
-      <article>
-        <h2>News</h2>
+    <main class="main-home">
+      <article class="tweet">
+        <h2>Tweet</h2>
         <section>
-          <h3>Log</h3>
           <ul>
             <li>
-              <article>
-                <h4>キーボード XXXXX 買いました！</h4>
-                <p>
-                  キーボード XXXXX を買いました。65%
-                  のコンパクトキーボードです。アルミボディ、ダブルガスケットマウント...
-                </p>
-                <button type="button">Read More</button>
-              </article>
+              <p class="tweet--item">
+                Keychron V1 ノブバージョン買いました！初の Keychron V
+                シリーズ、初の 75% サイズ。
+                比較的手が出しやすい価格ながら、心地よい打鍵感と変に響かない打鍵音が良い！
+                <small>at 2023-12-28</small>
+              </p>
             </li>
             <li>
-              <article>
-                <h4>キーボード XXXXX 買いました！</h4>
-                <p>
-                  キーボード XXXXX を買いました。65%
-                  のコンパクトキーボードです。アルミボディ、ダブルガスケットマウント...
-                </p>
-                <button type="button">Read More</button>
-              </article>
-            </li>
-            <li>
-              <article>
-                <h4>キーボード XXXXX 買いました！</h4>
-                <p>
-                  キーボード XXXXX を買いました。65%
-                  のコンパクトキーボードです。アルミボディ、ダブルガスケットマウント...
-                </p>
-                <button type="button">Read More</button>
-              </article>
-            </li>
-          </ul>
-        </section>
-        <section>
-          <h3>Work</h3>
-          <ul>
-            <li>
-              <article>
-                <h4>キーボード XXXXX 買いました！</h4>
-                <p>
-                  キーボード XXXXX を買いました。65%
-                  のコンパクトキーボードです。アルミボディ、ダブルガスケットマウント...
-                </p>
-                <button type="button">Read More</button>
-              </article>
-            </li>
-            <li>
-              <article>
-                <h4>キーボード XXXXX 買いました！</h4>
-                <p>
-                  キーボード XXXXX を買いました。65%
-                  のコンパクトキーボードです。アルミボディ、ダブルガスケットマウント...
-                </p>
-                <button type="button">Read More</button>
-              </article>
-            </li>
-            <li>
-              <article>
-                <h4>キーボード XXXXX 買いました！</h4>
-                <p>
-                  キーボード XXXXX を買いました。65%
-                  のコンパクトキーボードです。アルミボディ、ダブルガスケットマウント...
-                </p>
-                <button type="button">Read More</button>
-              </article>
-            </li>
-          </ul>
-        </section>
-        <section>
-          <h3>Lab</h3>
-          <ul>
-            <li>
-              <article>
-                <h4>キーボード XXXXX 買いました！</h4>
-                <p>
-                  キーボード XXXXX を買いました。65%
-                  のコンパクトキーボードです。アルミボディ、ダブルガスケットマウント...
-                </p>
-                <button type="button">Read More</button>
-              </article>
-            </li>
-            <li>
-              <article>
-                <h4>キーボード XXXXX 買いました！</h4>
-                <p>
-                  キーボード XXXXX を買いました。65%
-                  のコンパクトキーボードです。アルミボディ、ダブルガスケットマウント...
-                </p>
-                <button type="button">Read More</button>
-              </article>
-            </li>
-            <li>
-              <article>
-                <h4>キーボード XXXXX 買いました！</h4>
-                <p>
-                  キーボード XXXXX を買いました。65%
-                  のコンパクトキーボードです。アルミボディ、ダブルガスケットマウント...
-                </p>
-                <button type="button">Read More</button>
-              </article>
+              <p class="tweet--item">
+                Keychron Q2 Pro を買った。英語配列の最適サイズは 65%
+                以上というのが個人的に決まった記念！
+                <small>at 2023-12-28</small>
+              </p>
             </li>
           </ul>
         </section>
       </article>
-      <section>
-        <h2>Profile</h2>
-      </section>
+      <article class="news">
+        <h2>News</h2>
+        <div class="news--container">
+          <section class="news--log">
+            <h3>Log</h3>
+            <ul>
+              <li>
+                <article>
+                  <h4>⌨️ Keychron V1 ノブバージョンを買ったよ</h4>
+                  <p>
+                    Keychron V シリーズの75% サイズのノブ付きキーボード。
+                    試し買い良し、勧めるも良しって感じの値段と打鍵感。V
+                    シリーズ、いいっすねえ……😎。 Keychron V1 Max
+                    も注文しているのでどっかで比較したい。
+                  </p>
+                  <button type="button" disabled>Read More</button>
+                </article>
+              </li>
+              <li>
+                <article>
+                  <h4>⌨️ ブログ書き始めるまでに買っていたキーボード</h4>
+                  <p>
+                    Mistel MD600 ALPHA Mister AIRONE Keychron Q2 Pro NiZ Plum66
+                    Keychron K9 Pro Tofu60 2.0 SteelSeries APEX Pro TKL
+                    Wireless(2023) HHKB Professional HYBRID Type-S 日本語配列/雪
+                    HHKB Professional HYBRID Type-S 英語配列/白 HHKB
+                    Professional HYBRID Typs-S 日本語配列/墨 ARCHISS Maestro 2S
+                    その他 ELECOM キーボード等
+                  </p>
+                  <button type="button" disabled>Read More</button>
+                </article>
+              </li>
+            </ul>
+          </section>
+          <section class="news--work">
+            <h3>Work</h3>
+            <ul>
+              <li>
+                <article>
+                  <h4>ブログ作成中</h4>
+                  <p>
+                    フロントエンドやりたいなあと思いながらバックエンドやってきた社会人
+                    6 年生。<br />
+                    メカニカルキーボードやその部品を買い漁り始め、打鍵感や打鍵音で心地良くなりながらなかなか楽しくなってきた。<br />
+                    Discord
+                    で友人からの一言で「ブログ書いていいよ」と言われ、とりあえず形にしながら作り始めた。
+                  </p>
+                  <button type="button" disabled>Read More</button>
+                </article>
+              </li>
+            </ul>
+          </section>
+          <section class="news--lab">
+            <h3>Lab</h3>
+            <ul>
+              <li>
+                <article>
+                  <h4>HTML/CSS/JS だけでいい感じにブログを書いてみる</h4>
+                  <p>
+                    Web Components とか駆使して、なるべく DRY に作ってみる。
+                  </p>
+                  <button type="button" disabled>Read More</button>
+                </article>
+              </li>
+            </ul>
+          </section>
+        </div>
+      </article>
+      <article class="profile">
+        <section>
+          <h2>Profile</h2>
+          <img class="profile--img" src="./img/mylogo.png" alt="えっつのロゴ" />
+          <h3> えっつ </h3>
+          <p>
+            立川の中小 SIer で SE をしている。「楽に楽しく」生きるのが目標。最近
+            F# 触り始めた。
+            ケモミミ、コーヒー、キーボードが好き。キーボードをメインにガジェット集めたり、ゲームやプラモデル、同人グッズを集めたり、プレーしたりする。
+          </p>
+          <h4>業務で使ったことある技術・サービス</h4>
+          <ul>
+            <li>
+              Java
+              <ul>
+                <li>Apache Tomcat</li>
+                <li>Spring Boot</li>
+              </ul>
+            </li>
+            <li>
+              C#
+              <ul>
+                <li>ASP.NET MVC</li>
+                <li>Windows Form</li>
+                <li>WPF</li>
+              </ul>
+            </li>
+            <li>
+              HTML/CSS/JS
+              <ul>
+                <li>
+                  Node.js
+                  <ul>
+                    <li>Express</li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+            <li>
+              kintone
+              <ul>
+                <li> kintone JavaScript API </li>
+                <li> kintone REST API </li>
+              </ul>
+            </li>
+          </ul>
+          <h4>趣味で使ったことある技術・サービス</h4>
+          <ul>
+            <li>
+              F#
+              <ul>
+                <li>PlayWright</li>
+              </ul>
+            </li>
+            <li>
+              Python
+              <ul>
+                <li>Django(ほんの少し)</li>
+                <li>Pyppeteer</li>
+              </ul>
+            </li>
+            <li>
+              Rust
+              <ul>
+                <li>PlayWright</li>
+              </ul>
+            </li>
+            <li>
+              HTML/CSS/JS
+              <ul>
+                <li>
+                  Svelte
+                  <ul>
+                    <li>SvelteKit</li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </section>
+      </article>
     </main>
 
-    <footer>
+    <footer class="footer">
       <section class="footer--content">
         <h2>ettsu-log</h2>
         <section>

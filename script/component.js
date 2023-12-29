@@ -9,6 +9,7 @@ class GeneralHeader extends HTMLElement {
     });
 
     const header = document.createElement("header");
+    header.setAttribute("class", "header");
 
     const siteTitle = document.createElement("h1");
     siteTitle.textContent = "ettsu-log（工事中）";
@@ -44,8 +45,8 @@ class GeneralHeader extends HTMLElement {
 
     menuItemList.push(setMenuItem("./", "Home", "トップページです。", false));
     menuItemList.push(setMenuItem("./log.html", "Log", "趣味に関する記事を載せています。", false));
-    menuItemList.push(setMenuItem("./work.html", "Work", "なんか作ったものを雑多に置く場所です。", true));
-    menuItemList.push(setMenuItem("./lab.html", "Lab", "試したいものを実際に試している場所です。", true));
+    menuItemList.push(setMenuItem("./work.html", "Work", "なんか作ったものを雑多に置く場所です。", false));
+    menuItemList.push(setMenuItem("./lab.html", "Lab", "試したいものを実際に試している場所です。", false));
 
     const siteNavigation = document.createElement("nav");
     siteNavigation.setAttribute("class", "global-navigation");
@@ -60,6 +61,10 @@ class GeneralHeader extends HTMLElement {
 
     const style = document.createElement("style");
     style.textContent = `
+    .header {
+      padding: 1rem;
+    }
+
     .global-navigation--menu {
       display: flex;
       flex-flow: row wrap;

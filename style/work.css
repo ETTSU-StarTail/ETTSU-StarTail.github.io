@@ -1,0 +1,14 @@
+.main-work {
+  display: grid;
+  grid-template-rows: 1;
+  grid-template-columns: 4fr 1fr;
+  gap: 2rem;
+}
+
+.articles {
+  padding: 0 1rem;
+}
+
+.profile {
+  grid-column: 2;
+}
