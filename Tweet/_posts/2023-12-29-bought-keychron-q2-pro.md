@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Keychron Q2 Pro を買ったよ"
+title: "Keychron Q2 Pro 購入"
 date: 2023-11-29 19:49:00 +0900
 ---
 

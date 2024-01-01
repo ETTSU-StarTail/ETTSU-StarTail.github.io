@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Keychron V1 ノブバージョン買ったよ"
+title: "Keychron V1 ノブバージョン購入"
 date: 2023-12-28 12:49:00 +0900
 ---
 
