@@ -1,0 +1,23 @@
+<article class="tweet">
+  <h2>Tweet</h2>
+  <section>
+    {%- for category in site.categories -%}
+      {%- if category[0] == "Tweet" -%}
+        <ul class="post-list">
+          {%- for post in category[1] -%}
+            <li>
+              {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+              <span class="post-meta">{{ post.date | date: date_format }}</span>
+              <h3>
+                {{ post.title | escape }}
+              </h3>
+              {%- if site.show_excerpts -%}
+                {{ post.excerpt }}
+              {%- endif -%}
+            </li>
+          {%- endfor -%}
+        </ul>
+      {%- endif -%}
+    {%- endfor -%}
+  </section>
+</article>

@@ -1,0 +1,32 @@
+.wrapper-content {
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 20vw 40vw 20vw;
+  justify-content: space-around;
+  gap: 30px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 30px;
+  padding-left: 30px;
+}
+
+/* 短い記事 */
+.tweet {
+  grid-column: 1;
+  padding: 0 1rem;
+}
+
+/* 記事 */
+.content {
+  grid-column: 2;
+  padding: 0 1rem;
+}
+
+/* 自己紹介 */
+.profile {
+  grid-column: 3;
+}
+
+.profile--img {
+  width: 5rem;
+}
