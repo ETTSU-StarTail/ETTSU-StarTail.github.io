@@ -1,0 +1,24 @@
+{
+  "lockfile_version": "1",
+  "packages": {
+    "gcc@latest": {
+      "last_modified": "2023-12-13T22:54:10Z",
+      "resolved": "github:NixOS/nixpkgs/fd04bea4cbf76f86f244b9e2549fca066db8ddff#gcc13",
+      "source": "devbox-search",
+      "version": "13.2.0"
+    },
+    "gem@latest": {
+      "last_modified": "2023-12-13T22:54:10Z",
+      "resolved": "github:NixOS/nixpkgs/fd04bea4cbf76f86f244b9e2549fca066db8ddff#gem",
+      "source": "devbox-search",
+      "version": "2023-07-28"
+    },
+    "ruby@latest": {
+      "last_modified": "2023-12-13T22:54:10Z",
+      "plugin_version": "0.0.2",
+      "resolved": "github:NixOS/nixpkgs/fd04bea4cbf76f86f244b9e2549fca066db8ddff#ruby_3_2",
+      "source": "devbox-search",
+      "version": "3.2.2"
+    }
+  }
+}
