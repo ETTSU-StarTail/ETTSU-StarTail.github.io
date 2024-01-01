@@ -21,13 +21,18 @@
 title: ettsu-log
 email: holywolf53@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  ETTSU のブログです。
+  「えっつ」のブログです。
   買ったものや遊んだものの記事や作ったもの試したものを載せています。
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://ettsu-startail.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: skywish_sword
 github_username: ETTSU-StarTail
+misskey_server: "misskey.io"
+misskey_username: "ettsu"
 domain: ettsu-startail.github.io
+lang: ja
+author: えっつ
+show_excerpts: true
 
 # Build settings
 theme: minima
@@ -53,3 +58,10 @@ exclude:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      excerpt_separator: <!--more-->
