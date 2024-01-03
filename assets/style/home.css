@@ -1,0 +1,64 @@
+.wrapper-content {
+  display: grid;
+  align-items: flex-start;
+  gap: 30px;
+  padding-right: 30px;
+  padding-left: 30px;
+  margin-right: auto;
+  margin-left: auto;
+
+  /* 縦表示向け */
+  max-width: 800px;
+  grid-template-rows: auto auto auto;
+  grid-template-columns: auto;
+  justify-content: center;
+}
+
+/* 短い記事 */
+.tweet {
+  grid-row: 2;
+  grid-column: 1;
+  padding: 30px 0;
+}
+
+/* 記事 */
+.wrapper {
+  grid-row: 1;
+  grid-column: 1;
+}
+
+/* 自己紹介 */
+.profile {
+  grid-row: 3;
+  grid-column: 1;
+  padding: 30px 0;
+}
+
+@media screen and (min-width: 100rem) {
+  .wrapper-content {
+    /* 横表示向け */
+    grid-template-rows: auto;
+    grid-template-columns: 20vw 800px 20vw;
+    justify-content: space-around;
+  }
+
+  /* 短い記事 */
+  .tweet {
+    grid-row: 1;
+    grid-column: 1;
+    padding: 0 30px;
+  }
+
+  /* 記事 */
+  .wrapper {
+    grid-row: 1;
+    grid-column: 2;
+  }
+
+  /* 自己紹介 */
+  .profile {
+    grid-row: 1;
+    grid-column: 3;
+    padding: 0 30px;
+  }
+}

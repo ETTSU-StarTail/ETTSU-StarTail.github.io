@@ -1,40 +1,56 @@
----
-layout: default
----
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "ja" }}">
 
-<div class="home">
-  {%- if page.title -%}
-    <h1 class="page-heading">{{ page.title }}</h1>
-  {%- endif -%}
+  {%- include head.html -%}
 
-  {{ content }}
+  <body>
 
-  <h2 class="post-list-heading">News</h2>
-  {%- if site.posts.size > 0 -%}
+    {%- include header.html -%}
 
-    <ul class="post-list">
-      {%- for post in site.posts -%}
-        {%- if post.categories contains "Tweet" -%}
-        {%- else -%}
-          <li>
-            {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-            <span class="post-meta">{{ post.date | date: date_format }}</span>
-            <h3>
-              <a class="post-link" href="{{ post.url | relative_url }}">
-                {{ post.title | escape }}
-              </a>
-            </h3>
-            {%- if site.show_excerpts -%}
-            {{ post.excerpt }}
-            {%- endif -%}
-          </li>
-        {%- endif -%}
-      {%- endfor -%}
-    </ul>
+    <main class="page-content" aria-label="Content">
+      <div class="wrapper-content">
+        {%- include tweet.html -%}
 
-    <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
-  {%- else -%}
-    <p>まだ投稿された記事はありません。</p>
-  {%- endif -%}
+        <div class="wrapper">
+          {%- if page.title -%}
+            <h1 class="page-heading">{{ page.title }}</h1>
+          {%- endif -%}
 
-</div>
+          <h2 class="post-list-heading">News</h2>
+          {%- if site.posts.size > 0 -%}
+
+            <ul class="post-list">
+              {%- for post in site.posts -%}
+                {%- if post.categories contains "Tweet" -%}
+                {%- else -%}
+                  <li>
+                    {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+                    <span class="post-meta">{{ post.date | date: date_format }}</span>
+                    <h3>
+                      <a class="post-link" href="{{ post.url | relative_url }}">
+                        {{ post.title | escape }}
+                      </a>
+                    </h3>
+                    {%- if site.show_excerpts -%}
+                    {{ post.excerpt }}
+                    {%- endif -%}
+                  </li>
+                {%- endif -%}
+              {%- endfor -%}
+            </ul>
+
+            <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
+          {%- else -%}
+            <p>まだ投稿された記事はありません。</p>
+          {%- endif -%}
+        </div>
+
+        {%- include profile.html -%}
+      </div>
+    </main>
+
+    {%- include footer.html -%}
+
+  </body>
+
+</html>
