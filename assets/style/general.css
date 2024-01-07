@@ -12,3 +12,14 @@ body {
 .profile--img {
   width: 5rem;
 }
+
+.post-category {
+  display: inline-block;
+  font-size: 14px;
+  padding: 0rem 0.4rem;
+  margin-left: 0.4rem;
+  border: 1px solid #828282;
+  border-radius: 1rem;
+  color: #828282;
+  text-align: center;
+}
