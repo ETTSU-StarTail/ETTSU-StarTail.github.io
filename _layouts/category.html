@@ -1,0 +1,37 @@
+---
+layout: default
+---
+
+<h1 class="page-heading">{{ page.title }}</h1>
+
+<p>{{ page.short_description }}</p>
+
+{%- for category in site.categories -%}
+  {%- if category contains page.category -%}
+    {% if 0 < category[1].size -%}
+
+      <ul class="post-list">
+        {% for post in category[1] -%}
+        <li>
+          {%- assign date_format = site.date_format | default: "%b %-d, %Y" -%}
+          <span class="post-meta">{{ post.date | date: date_format }}</span>
+          {%- for tag in post.tags -%}
+            <span class="post-category">{{ tag }}</span>
+          {%- endfor -%}
+          <h3>
+            <a class="post-link" href="{{ post.url | relative_url }}">
+              {{ post.title | escape }}
+            </a>
+          </h3>
+          {%- if site.show_excerpts -%}
+            {{ post.excerpt }}
+          {%- endif -%}
+        </li>
+        {%- endfor -%}
+      </ul>
+
+    {%- else -%}
+      <p>まだ投稿された記事はありません。</p>
+    {%- endif -%}
+  {% endif -%}
+{%- endfor -%}
