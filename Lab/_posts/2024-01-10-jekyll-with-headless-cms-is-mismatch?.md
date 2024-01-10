@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Jekyll で JAMStack ってムズい？
-tags: Jekyll JAMStack
+tags: Jekyll JAMStack blog
 date: 2024-01-10 10:43:35 +09:00
 ---
 
