@@ -2,6 +2,7 @@
 layout: post
 title: Jekyll で JAMStack ってムズい？
 tags: Jekyll JAMStack
+date: 2024-01-10 10:43:35 +09:00
 ---
 
 JAMStack も SSG も初めてだし、よく知らんだけかも。Generator とやらを作れば良いのかしら？
