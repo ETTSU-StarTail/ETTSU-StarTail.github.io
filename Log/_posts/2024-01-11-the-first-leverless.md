@@ -1,5 +1,5 @@
 ---
-layout: posts
+layout: post
 title: 初めてのレバーレス「Haute Board」
 date: 2024-01-11 12:46:47
 tags: keyboard controller game
