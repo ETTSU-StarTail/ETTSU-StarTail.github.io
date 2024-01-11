@@ -14,7 +14,7 @@ tags: keyboard controller game
 
 そんな中、キーボードの趣味が活きそうなレバーレスが見つかったので試しに購入してみたよ。
 
-https://amzn.asia/d/01Ys1OL
+<https://amzn.asia/d/01Ys1OL>
 
 以下の 3 点によってセレクト。
 
