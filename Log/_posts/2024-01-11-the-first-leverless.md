@@ -16,6 +16,8 @@ tags: keyboard controller game
 
 <https://amzn.asia/d/01Ys1OL>
 
+<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">初めてのレバーレスとしてこいつを選んでみた。<br>キーボード散財で集めたリソースが使えるのでセレクト。<br>Kailh Prestige Voice(A に刺さってるスイッチ)の方が好き感じ、使う前から換装していく～。 <a href="https://t.co/VKwa3PO0uA">pic.twitter.com/VKwa3PO0uA</a></p>&mdash; えっつ (@skywish_sword) <a href="https://twitter.com/skywish_sword/status/1745102816644055296?ref_src=twsrc%5Etfw">January 10, 2024</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 以下の 3 点によってセレクト。
 
 1. キーボード散財で集めたキースイッチやキーキャップといったリソースが使える
