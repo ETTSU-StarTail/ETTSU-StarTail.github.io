@@ -13,7 +13,9 @@ Lofree FLOW というガスケットマウントを採用したロープロフ�
 
 <https://www.lofree.co/ja/products/lofree-flow-the-smoothest-mechanical-keyboard>
 
-打鍵感や打鍵音は柔らかく長く使っても疲れづらい感じ。あと、付属キーキャップや本体の見た目もシンプルで格好がいいので飾ったときも映えて良いです。
+打鍵感や打鍵音は柔らかく長く使っても疲れづらい感じ。あと、付属キーキャップや本体の見た目もシンプルで格好がいいので飾ったときも映えて良い。
+
+<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">LOFREE FLOW きちゃ <a href="https://t.co/dvhq2B3zUe">pic.twitter.com/dvhq2B3zUe</a></p>&mdash; えっつ (@skywish_sword) <a href="https://twitter.com/skywish_sword/status/1746466583906841072?ref_src=twsrc%5Etfw">January 14, 2024</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 ゴーストスイッチはリニアタイプで、Full POM。POM の優れた自己潤滑性とやらで使い込みでより滑らかになるとか。
 
