@@ -39,7 +39,7 @@
     /* 横表示向け */
     grid-template-rows: auto;
     grid-template-columns: 20vw 800px 20vw;
-    justify-content: space-around;
+    justify-content: center;
   }
 
   /* 短い記事 */
